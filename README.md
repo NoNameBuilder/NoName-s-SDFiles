@@ -92,38 +92,6 @@ The **CC1101** RF transceiver is **integrated** into the **T-Embed CC1101** boar
 
 Once you've installed the libraries and connected the hardware, you can start uploading example code to the **T-Embed CC1101** board.
 
-##### Example Code
-
-This repository contains several example codes to help you get started:
-
-- **Basic Communication**:
-  - A simple example for sending and receiving data wirelessly using the **CC1101** transceiver.
-  
-- **Data Logging**:
-  - Logs data (e.g., sensor readings) to the **SD card** while transmitting the same data wirelessly using the **CC1101**.
-
-- **LED Control**:
-  - Controls the **WS2812** RGB LEDs on the board to create visual effects for status or feedback.
-
-##### Uploading the Code
-
-1. Open the **Arduino IDE**.
-2. Navigate to the **examples** folder in the repository and choose an example (e.g., **Basic Communication**).
-3. Select the correct **board** (ESP32S3 Dev Module) and the **port** in the **Tools** menu.
-4. Upload the code by clicking the **Upload** button.
-
-Once the code is uploaded, open the **Serial Monitor** to view output and debug information.
-
-### 4. Customizing the Example Code
-
-Feel free to modify the example code to suit your specific needs:
-
-- **Modify RF Settings**: Change the frequency, data rate, and other parameters in the **CC1101** communication settings.
-- **Add Sensors**: Integrate external sensors, log data to the SD card, and transmit data wirelessly.
-- **Customize LED Effects**: Adjust the WS2812 LED effects to fit your project’s requirements.
-
----
-
 ## Contributing
 
 We welcome contributions! If you'd like to help improve this project, here are a few ways you can contribute:
